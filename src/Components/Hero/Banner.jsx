@@ -66,7 +66,7 @@ const Banner = () => {
                     >
                     </div>
 
-                    <div className="relative mr-[300px] lg:h-screen lg:items-center">
+                    <div className="relative md:mr-[300px] lg:h-screen lg:items-center">
                         <div className='flex justify-center items-center md:h-[540px] h-[250px]'>
                             <div className="mt-14 text-black md:max-w-[820px] text-center ltr:sm:text-left rtl:sm:text-right p-10 rounded-lg">
                                 <i className="md:text-2xl text-sm mt-4max-w-2xl">
@@ -96,7 +96,7 @@ const Banner = () => {
                     >
                     </div>
 
-                    <div className="relative ml-[500px] lg:h-screen lg:items-center">
+                    <div className="relative md:ml-[500px] lg:h-screen lg:items-center">
                         <div className='flex justify-center items-center md:h-[540px] h-[250px]'>
                             <div className="mt-14 text-white md:max-w-[820px] text-center ltr:sm:text-left rtl:sm:text-right p-10 rounded-lg">
                                 <i className="md:text-2xl text-sm mt-4max-w-2xl">
