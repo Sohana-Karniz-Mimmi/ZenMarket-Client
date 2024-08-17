@@ -1,5 +1,4 @@
 import { Link, NavLink } from "react-router-dom";
-// import Topbar from "./Topbar";
 import Container from './../Container';
 import { useState } from "react";
 import { IoMdHeartEmpty } from "react-icons/io";
@@ -59,7 +58,6 @@ const Navbar = () => {
 
         <div className="bg-white">
 
-            {/* <Topbar></Topbar> */}
             <Container>
                 <div className=" navbar items-center justify-between barlow-regular min-h-[99px] p-0 md:py-3 py-5 ">
 
