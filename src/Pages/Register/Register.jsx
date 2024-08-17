@@ -60,36 +60,36 @@ const Register = () => {
     return (
         <>
             <Helmet>
-                <title>Register - Job-Portal</title>
+                <title>Register - ZenMarket</title>
             </Helmet>
-            <div className=" bg-cover bg-center bg-no-repeat h-[850px]" style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${login})` }}>
+            <div className="flex justify-center items-center bg-cover bg-center bg-no-repeat h-[100vh]" style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${login})` }}>
                 <div className="font-[sans-serif] text-[#333] -mt-5">
                     <div className=" flex flex-col items-center justify-center">
                         <div className="mx-auto md:w-[550px] w-full p-4">
 
                             {/* Form */}
-                            <div className="md:max-w-[550px] w-full dark:bg-white border-2 sm:px-6 py-3 px-9 rounded-lg">
+                            <div className="md:max-w-[550px] w-full dark:bg-white border-2 px-6 py-8">
                                 <form onSubmit={handleSubmit(handleRegisterForm)}>
-                                    <div className="my-6 text-center">
-                                        <h3 className="text-3xl font-extrabold">Register</h3>
+                                <div className=" pb-2">
+                                        <h3 className="text-[22px] uppercase font-semibold ">Register</h3>
                                     </div>
 
                                     <div>
-                                        <label className="text-sm block mb-2">Your Name</label>
+                                        <label className="text-[15px] block mb-2 font-semibold">Your Name*</label>
                                         <div className="relative">
                                             <input
                                                 {...register("name", { required: true })}
-                                                name="name" type="text" className="w-full text-sm border rounded-lg border-gray-300 focus:border-[#333] px-2 py-3 outline-none bg-transparent" placeholder="Enter Your Name" />
+                                                name="name" type="text" className="w-full text-sm border border-gray-300 focus:border-[#333] px-2 py-2 outline-none bg-transparent" placeholder="Enter Your Name" />
                                             {errors.name && <span className="text-red-600">Please Enter Your Name</span>}
                                         </div>
 
                                     </div>
 
                                     <div className="mt-4">
-                                        <label className="text-sm block mb-2">Email</label>
+                                        <label className="text-[15px] block mb-2 font-semibold">Email*</label>
                                         <div>
                                             <div className="relative flex items-center">
-                                                <input {...register("email", { required: true })} name="email" type="text" className="w-full text-sm border rounded-lg border-gray-300 focus:border-[#333] px-2 py-3 outline-none bg-transparent" placeholder="Enter Your Email" />
+                                                <input {...register("email", { required: true })} name="email" type="text" className="w-full text-sm border border-gray-300 focus:border-[#333] px-2 py-2 outline-none bg-transparent" placeholder="Enter Your Email" />
                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="#bbb" stroke="#bbb" className="w-[18px] h-[18px] absolute right-2" viewBox="0 0 682.667 682.667">
                                                     <defs>
                                                         <clipPath id="a" clipPathUnits="userSpaceOnUse">
@@ -103,10 +103,10 @@ const Register = () => {
                                     </div>
 
                                     <div className="mt-4">
-                                        <label className="text-sm block mb-2">Password</label>
+                                        <label className="text-[15px] block mb-2 font-semibold">Password*</label>
                                         <div>
                                             <div className="relative flex items-center">
-                                                <input {...register("password", { required: true })} name="password" type={showPassword ? "text" : "password"} className="w-full text-sm border rounded-lg border-gray-300 focus:border-[#333] px-2 py-3 outline-none bg-transparent" placeholder="Enter password" />
+                                                <input {...register("password", { required: true })} name="password" type={showPassword ? "text" : "password"} className="w-full text-sm border border-gray-300 focus:border-[#333] px-2 py-2 outline-none bg-transparent" placeholder="Enter password" />
                                                 {
                                                     showPassword ? <IoEyeOffOutline onClick={() => setShowPassword(!showPassword)} className="w-[18px] h-[18px] absolute right-2 cursor-pointer text-[#bbb]" />
                                                         :
@@ -121,12 +121,7 @@ const Register = () => {
 
                                     {/* Button */}
                                     <div className="mt-6">
-                                        <button className=" w-full relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
-                                            <span className="w-full h-full bg-[#51AA1B] absolute"></span>
-                                            <span className="relative md:px-6 md:py-3 px-3 py-2 transition-all ease-out rounded-md group-hover:bg-opacity-0 duration-400">
-                                                <span className="relative text-white md:text-[16px] text-sm">Register</span>
-                                            </span>
-                                        </button>
+                                        <button className="bg-[#51AA1B] relative h-10 px-5 uppercase text-white md:text-[16px] text-sm">Register</button>
                                     </div>
 
                                     <div className="">

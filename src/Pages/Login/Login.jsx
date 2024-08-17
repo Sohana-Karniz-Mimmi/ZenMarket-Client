@@ -59,7 +59,7 @@ const Login = () => {
                         <div className="mx-auto md:w-[440px] w-full p-4">
 
                             {/* Form */}
-                            <div className="md:max-w-md w-full dark:bg-white border-2 sm:px-6 p-[20px] rounded-lg">
+                            <div className="md:max-w-md w-full dark:bg-white border-2 sm:px-6 p-[20px] ">
                                 <form onSubmit={handleSubmit(handleLoginForm)}>
                                     <div className="pt-3 pb-2">
                                         <h3 className="text-[22px] uppercase font-semibold ">Login</h3>
