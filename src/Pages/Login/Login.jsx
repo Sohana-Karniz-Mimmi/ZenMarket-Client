@@ -52,23 +52,23 @@ const Login = () => {
                 <title>Login - ZenMarket</title>
             </Helmet>
 
-            <div className=" bg-cover bg-center bg-no-repeat h-[800px]" style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${login})` }}>
+            <div className="flex justify-center items-center bg-cover bg-center bg-no-repeat h-[100vh]" style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${login})` }}>
 
-                <div className="font-[sans-serif] text-[#333] ">
+                <div className="lato text-[#333]">
                     <div className=" flex flex-col items-center justify-center">
-                        <div className="mx-auto md:w-[448px] w-full p-4">
+                        <div className="mx-auto md:w-[440px] w-full p-4">
 
                             {/* Form */}
-                            <div className="md:max-w-md w-full dark:bg-white border-2 sm:px-6 p-[30px] rounded-lg">
+                            <div className="md:max-w-md w-full dark:bg-white border-2 sm:px-6 p-[20px] rounded-lg">
                                 <form onSubmit={handleSubmit(handleLoginForm)}>
-                                    <div className="pt-3 pb-5">
-                                        <h3 className="text-center text-3xl font-semibold ">Login Now</h3>
+                                    <div className="pt-3 pb-2">
+                                        <h3 className="text-[22px] uppercase font-semibold ">Login</h3>
                                     </div>
                                     <div>
                                         <label className="text-[15px] block mb-2 font-semibold">E-Mail Address*</label>
                                         <div>
                                             <div className="relative flex items-center">
-                                                <input {...register("email", { required: true })} name="email" type="text" className="w-full text-sm border rounded-lg border-gray-300 focus:border-[#333] px-2 py-3 outline-none bg-transparent" placeholder="Enter email" />
+                                                <input {...register("email", { required: true })} name="email" type="text" className="w-full text-sm border border-gray-300 focus:border-[#333] px-2 py-2 outline-none bg-transparent" placeholder="Enter email" />
                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="#bbb" stroke="#bbb" className="w-[18px] h-[18px] absolute right-2" viewBox="0 0 682.667 682.667">
                                                     <defs>
                                                         <clipPath id="a" clipPathUnits="userSpaceOnUse">
@@ -84,7 +84,7 @@ const Login = () => {
                                         <label className="text-[15px] block mb-2 font-semibold">Password *</label>
                                         <div>
                                             <div className="relative flex items-center">
-                                                <input {...register("password", { required: true })} name="password" type={showPassword ? "text" : "password"} className="w-full text-sm border rounded-lg border-gray-300 focus:border-[#333] px-2 py-3 outline-none bg-transparent" placeholder="Enter password" />
+                                                <input {...register("password", { required: true })} name="password" type={showPassword ? "text" : "password"} className="w-full text-sm border border-gray-300 focus:border-[#333] px-2 py-2 outline-none bg-transparent" placeholder="Enter password" />
                                                 {
                                                     showPassword ? <IoEyeOffOutline onClick={() => setShowPassword(!showPassword)} className="w-[18px] h-[18px] absolute right-2 cursor-pointer text-[#bbb]" />
                                                         :
@@ -100,27 +100,30 @@ const Login = () => {
                                     </div>
                                     <div className="flex items-center justify-between gap-2 mt-5">
                                         <div>
-                                            <a href="jajvascript:void(0);" className="text-blue-600 font-semibold text-sm hover:underline">
-                                                Forgot Password?
-                                            </a>
+                                            <label htmlFor="Option1" className="flex cursor-pointer items-start gap-4">
+                                                <div className="flex items-center">
+                                                    &#8203;
+                                                    <input type="checkbox" className="size-4 rounded border-gray-300" id="Option1" />
+                                                </div>
+
+                                                <div>
+                                                    <strong className="font-medium text-gray-900"> Remember me </strong>
+                                                </div>
+                                            </label>
                                         </div>
                                     </div>
 
                                     {/* Button */}
                                     <div className="mt-6">
-                                        <button className=" w-full relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
-                                            <span className="w-full h-full bg-green-600 absolute"></span>
-                                            <span className="relative md:px-6 md:py-3 px-3 py-2 transition-all ease-out rounded-md group-hover:bg-opacity-0 duration-400">
-                                                <span className="relative text-white md:text-[16px] text-sm">Login</span>
-                                            </span>
-                                        </button>
+
+                                        <button className="bg-[#51AA1B] relative h-10 px-5 uppercase text-white md:text-[16px] text-sm">Login</button>
                                     </div>
 
                                     <div className="">
                                         <p className="text-sm mt-4 ">Don not have an account?<Link to={`/register`} className="text-blue-600 font-semibold hover:underline ml-1 whitespace-nowrap">Register</Link></p>
                                     </div>
                                 </form>
-                                
+
                                 <div>
                                 </div>
                             </div>
