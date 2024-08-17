@@ -8,13 +8,17 @@ const Product = () => {
   const [currentPage, setCurrentPage] = useState(1)
   const [count, setCount] = useState(0)
   const [filter, setFilter] = useState('')
+  const [brand, setBrand] = useState('')
+  const [price, setPrice] = useState('')
   const [sort, setSort] = useState('')
+  const [sort_newest, setSortNewest] = useState('')
   const [search, setSearch] = useState('')
   const [searchText, setSearchText] = useState('')
   const [products, setProducts] = useState([])
-  const [categories, setCategories] = useState()
+  const [categories, setCategories] = useState([])
+  const [brands, setBrands] = useState([]);
 
-
+  // unique categories and brand name filter
   useEffect(() => {
     const getData = async () => {
       try {
@@ -24,6 +28,9 @@ const Product = () => {
         // Extract unique categories
         const uniqueCategories = [...new Set(data.map(product => product.category))];
         setCategories(uniqueCategories);
+        // Extract unique categories
+        const uniqueBrand = [...new Set(data.map(product => product.brand_name))];
+        setBrands(uniqueBrand);
       } catch (error) {
         console.error('Error fetching data', error);
       }
@@ -31,28 +38,30 @@ const Product = () => {
     getData();
   }, []);
 
+  // Product fetch
   useEffect(() => {
     const getData = async () => {
       const { data } = await axios(
         `${import.meta.env.VITE_API_URL
-        }/all-products?page=${currentPage}&size=${itemsPerPage}&filter=${filter}&sort=${sort}&search=${search}`
+        }/all-products?page=${currentPage}&size=${itemsPerPage}&filter=${filter}&sort=${sort}&search=${search}&brand=${brand}&price=${price}&sort_newest=${sort_newest}`
       )
       setProducts(data)
     }
     getData()
-  }, [currentPage, filter, itemsPerPage, search, sort])
+  }, [currentPage, filter, itemsPerPage, search, sort, brand, price, sort_newest])
 
+  // page count api fetch
   useEffect(() => {
     const getCount = async () => {
       const { data } = await axios(
         `${import.meta.env.VITE_API_URL
-        }/products-count?filter=${filter}&search=${search}`
+        }/products-count?filter=${filter}&search=${search}&brand=${brand}&price=${price}`
       )
 
       setCount(data.count)
     }
     getCount()
-  }, [filter, search])
+  }, [filter, search, brand, price])
 
   console.log(count)
   const numberOfPages = Math.ceil(count / itemsPerPage)
@@ -63,13 +72,19 @@ const Product = () => {
     console.log(value)
     setCurrentPage(value)
   }
+
+  // handle reset button
   const handleReset = () => {
     setFilter('')
+    setBrand('')
     setSort('')
+    setPrice('')
+    setSortNewest('')
     setSearch('')
     setSearchText('')
   }
 
+  // Handle search button
   const handleSearch = e => {
     e.preventDefault()
 
@@ -105,36 +120,39 @@ const Product = () => {
           <div>
             <select
               onChange={e => {
-                setFilter(e.target.value)
+                setBrand(e.target.value)
                 setCurrentPage(1)
               }}
-              value={filter}
-              name='category'
-              id='category'
+              value={brand}
+              name='brand_name'
+              id='brand_name'
               className='border p-4 rounded-lg'
             >
               <option value=''>Filter By Brand</option>
-              <option value='Brand'>Brand</option>
-              <option value='Category'>Category</option>
-              <option value='Price Range'>Price Range</option>
+              {
+                brands?.map((brand, index) => (
+                  <option key={index} value={brand}>{brand}</option>
+                ))
+              }
+
             </select>
           </div>
 
           <div>
             <select
               onChange={e => {
-                setFilter(e.target.value)
+                setPrice(e.target.value)
                 setCurrentPage(1)
               }}
-              value={filter}
-              name='category'
-              id='category'
+              value={price}
+              name='price'
+              id='price'
               className='border p-4 rounded-lg'
             >
               <option value=''>Filter By Price Range</option>
-              <option value='Brand'>Brand</option>
-              <option value='Category'>Category</option>
-              <option value='Price Range'>Price Range</option>
+              <option value='0-100'>0-100</option>
+              <option value='101-1000'>101-1000</option>
+              <option value='1001-5000'>1001-5000</option>
             </select>
           </div>
 
@@ -161,12 +179,12 @@ const Product = () => {
           <div>
             <select
               onChange={e => {
-                setSort(e.target.value)
+                setSortNewest(e.target.value)
                 setCurrentPage(1)
               }}
-              value={sort}
-              name='sort'
-              id='sort'
+              value={sort_newest}
+              name='sort_newest'
+              id='sort_newest'
               className='border p-4 rounded-md'
             >
               <option value=''>Sort By Date</option>
@@ -186,9 +204,8 @@ const Product = () => {
               className='border p-4 rounded-md'
             >
               <option value=''>Sort By Price</option>
-              <option value='dsc'>Newest Product</option>
+              <option value='dsc'>Price High to Low </option>
               <option value='asc'>Price Low to High</option>
-              <option value='asc'>Price High to Low </option>
             </select>
           </div>
 

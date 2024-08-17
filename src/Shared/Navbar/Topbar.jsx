@@ -1,4 +1,3 @@
-// import { PiFireTruckLight } from "react-icons/pi";
 import Container from "../Container";
 import { FaFacebookF, FaGlobeAmericas, FaInstagram, FaPinterestP, FaTwitter } from "react-icons/fa";
 import { TbTruckDelivery } from "react-icons/tb";

@@ -2,9 +2,10 @@
 import { FaHeart} from "react-icons/fa";
 import { FaRegClock, FaStar } from "react-icons/fa6";
 import moment from 'moment-timezone';
+import { SiBrandfolder } from "react-icons/si";
 
 const ProductCard = ({product}) => {
-  const {name, image, description, price, category, ratings, createdAt} = product;
+  const {name, image, description, price, category, ratings, createdAt, brand_name} = product;
   // Convert to a specific time zone (e.g., Asia/Dhaka)
   const localTimeInDhaka = moment.tz(createdAt, 'UTC').tz('Asia/Dhaka').format('YYYY-MM-DD h:mm A');
 
@@ -16,6 +17,7 @@ const ProductCard = ({product}) => {
         <div className="overflow-hidden relative">
           <img role="presentation" className="object-cover transition-all group-hover:scale-110 duration-700 ease-in-out w-full rounded h-56 bg-gray-500" src={image} />
           <h3 className="z-10 group-hover:bg-white bg-[#00000050] text-sm font-medium text-white absolute top-4 right-5 rounded-full py-2 px-2 xs:text-xl md:text-sm flex items-center gap-2"> <FaHeart className="group-hover:text-[#FF0143]" /></h3>
+          <h3 className="z-10 bg-[#FF0143] text-sm font-medium text-white absolute top-4 left-5 rounded-full py-1 px-4 xs:text-xl md:text-sm flex items-center gap-2"> <SiBrandfolder />{brand_name}</h3>
         </div>
 
         <div className="p-6 space-y-0.5">
