@@ -17,9 +17,9 @@ const Banner = () => {
             navigation={true}
             pagination={true}
             modules={[Navigation, Autoplay, EffectFade, Pagination]}
-            // autoplay={{
-            //     delay: 9000,
-            //   }}
+            autoplay={{
+                delay: 9000,
+              }}
             loop={true}
         >
 
