@@ -1,5 +1,6 @@
 import Banner from "../../Components/Hero/Banner";
 import Product from "../../Components/Product/Product";
+import Footer from "../../Shared/Footer/Footer";
 import Navbar from "../../Shared/Navbar/Navbar";
 import Topbar from "../../Shared/Navbar/Topbar";
 
@@ -14,6 +15,7 @@ const Home = () => {
                 <Banner></Banner>
             </div>
             <Product/>
+            <Footer/>
         </div>
     );
 };

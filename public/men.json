@@ -1,0 +1,103 @@
+[
+    {
+      "name": "Men's Leather Belt",
+      "image": "https://example.com/leatherbelt.jpg",
+      "description": "Classic leather belt with a sleek metal buckle, suitable for formal and casual wear.",
+      "price": 45,
+      "category": "Men",
+      "brand": "Tommy Hilfiger",
+      "ratings": 4.6,
+      "createdAt": "2024-08-10T10:00:00Z"
+    },
+    {
+      "name": "Men's Casual Polo Shirt",
+      "image": "https://example.com/poloshirt.jpg",
+      "description": "Comfortable and stylish polo shirt, perfect for casual occasions.",
+      "price": 35,
+      "category": "Men",
+      "brand": "Ralph Lauren",
+      "ratings": 4.8,
+      "createdAt": "2024-08-11T11:30:00Z"
+    },
+    {
+      "name": "Men's Running Shoes",
+      "image": "https://example.com/mensrunningshoes.jpg",
+      "description": "Lightweight and durable running shoes designed for optimal performance.",
+      "price": 85,
+      "category": "Men",
+      "brand": "Nike",
+      "ratings": 4.7,
+      "createdAt": "2024-08-12T08:45:00Z"
+    },
+    {
+      "name": "Men's Wool Blazer",
+      "image": "https://example.com/woolblazer.jpg",
+      "description": "Elegant wool blazer, ideal for formal and semi-formal events.",
+      "price": 150,
+      "category": "Men",
+      "brand": "Zara",
+      "ratings": 4.5,
+      "createdAt": "2024-08-13T09:00:00Z"
+    },
+    {
+      "name": "Men's Aviator Sunglasses",
+      "image": "https://example.com/aviatorsunglasses.jpg",
+      "description": "Classic aviator sunglasses with UV protection and a timeless design.",
+      "price": 120,
+      "category": "Men",
+      "brand": "Ray-Ban",
+      "ratings": 4.9,
+      "createdAt": "2024-08-14T14:20:00Z"
+    },
+    {
+      "name": "Men's Leather Jacket",
+      "image": "https://example.com/leatherjacket.jpg",
+      "description": "Stylish leather jacket, adding a rugged edge to your outfit.",
+      "price": 200,
+      "category": "Men",
+      "brand": "AllSaints",
+      "ratings": 4.6,
+      "createdAt": "2024-08-15T15:30:00Z"
+    },
+    {
+      "name": "Men's Slim Fit Jeans",
+      "image": "https://example.com/slimfitjeans.jpg",
+      "description": "Comfortable and durable slim-fit jeans, perfect for everyday wear.",
+      "price": 60,
+      "category": "Men",
+      "brand": "Levi's",
+      "ratings": 4.8,
+      "createdAt": "2024-08-16T12:10:00Z"
+    },
+    {
+      "name": "Men's Digital Watch",
+      "image": "https://example.com/digitalwatch.jpg",
+      "description": "Sleek digital watch with multiple features including stopwatch and alarm.",
+      "price": 100,
+      "category": "Men",
+      "brand": "Casio",
+      "ratings": 4.7,
+      "createdAt": "2024-08-17T09:00:00Z"
+    },
+    {
+      "name": "Men's Formal Leather Shoes",
+      "image": "https://example.com/formalshoes.jpg",
+      "description": "Elegant formal leather shoes, perfect for business and formal events.",
+      "price": 130,
+      "category": "Men",
+      "brand": "Clarks",
+      "ratings": 4.5,
+      "createdAt": "2024-08-18T16:00:00Z"
+    },
+    {
+      "name": "Men's Baseball Cap",
+      "image": "https://example.com/baseballcap.jpg",
+      "description": "Trendy baseball cap, great for outdoor activities and casual wear.",
+      "price": 25,
+      "category": "Men",
+      "brand": "Adidas",
+      "ratings": 4.8,
+      "createdAt": "2024-08-19T18:30:00Z"
+    }
+  ]
+  

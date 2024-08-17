@@ -1,0 +1,103 @@
+[
+    {
+      "name": "Men's Wool Sweater",
+      "image": "https://example.com/menswoolsweater.jpg",
+      "description": "Cozy wool sweater with a classic design, perfect for chilly days.",
+      "price": 120,
+      "category": "Sweaters",
+      "brand": "Uniqlo",
+      "ratings": 4.7,
+      "createdAt": "2024-08-10T09:00:00Z"
+    },
+    {
+      "name": "Women's Cashmere Sweater",
+      "image": "https://example.com/womenscashmeresweater.jpg",
+      "description": "Luxurious cashmere sweater offering ultimate softness and warmth.",
+      "price": 180,
+      "category": "Sweaters",
+      "brand": "Everlane",
+      "ratings": 4.9,
+      "createdAt": "2024-08-11T10:15:00Z"
+    },
+    {
+      "name": "Men's Crew Neck Sweater",
+      "image": "https://example.com/menscrewneck.jpg",
+      "description": "Comfortable crew neck sweater, ideal for layering in cooler weather.",
+      "price": 85,
+      "category": "Sweaters",
+      "brand": "Gap",
+      "ratings": 4.6,
+      "createdAt": "2024-08-12T11:30:00Z"
+    },
+    {
+      "name": "Women's V-Neck Sweater",
+      "image": "https://example.com/womensvneck.jpg",
+      "description": "Elegant v-neck sweater with a versatile design, perfect for both casual and formal wear.",
+      "price": 95,
+      "category": "Sweaters",
+      "brand": "H&M",
+      "ratings": 4.7,
+      "createdAt": "2024-08-13T13:45:00Z"
+    },
+    {
+      "name": "Men's Cable Knit Sweater",
+      "image": "https://example.com/cableknitsweater.jpg",
+      "description": "Classic cable knit sweater, offering warmth and style for any occasion.",
+      "price": 110,
+      "category": "Sweaters",
+      "brand": "Ralph Lauren",
+      "ratings": 4.8,
+      "createdAt": "2024-08-14T14:10:00Z"
+    },
+    {
+      "name": "Women's Pullover Sweater",
+      "image": "https://example.com/womenspullover.jpg",
+      "description": "Soft pullover sweater with a relaxed fit, perfect for everyday wear.",
+      "price": 80,
+      "category": "Sweaters",
+      "brand": "Banana Republic",
+      "ratings": 4.6,
+      "createdAt": "2024-08-15T15:00:00Z"
+    },
+    {
+      "name": "Men's Zip-Up Sweater",
+      "image": "https://example.com/zipupsweater.jpg",
+      "description": "Versatile zip-up sweater, great for layering and keeping warm.",
+      "price": 95,
+      "category": "Sweaters",
+      "brand": "Columbia",
+      "ratings": 4.7,
+      "createdAt": "2024-08-16T16:30:00Z"
+    },
+    {
+      "name": "Women's Oversized Sweater",
+      "image": "https://example.com/oversizedsweater.jpg",
+      "description": "Trendy oversized sweater with a comfy fit, ideal for casual outings.",
+      "price": 100,
+      "category": "Sweaters",
+      "brand": "Forever 21",
+      "ratings": 4.8,
+      "createdAt": "2024-08-17T17:15:00Z"
+    },
+    {
+      "name": "Men's Henley Sweater",
+      "image": "https://example.com/henleysweater.jpg",
+      "description": "Stylish henley sweater with a buttoned neck, perfect for layering.",
+      "price": 85,
+      "category": "Sweaters",
+      "brand": "Abercrombie & Fitch",
+      "ratings": 4.6,
+      "createdAt": "2024-08-18T18:00:00Z"
+    },
+    {
+      "name": "Women's Mock Neck Sweater",
+      "image": "https://example.com/mocknecksweater.jpg",
+      "description": "Chic mock neck sweater with a cozy feel, perfect for cooler days.",
+      "price": 90,
+      "category": "Sweaters",
+      "brand": "Anthropologie",
+      "ratings": 4.9,
+      "createdAt": "2024-08-19T19:30:00Z"
+    }
+  ]
+  
