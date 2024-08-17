@@ -1,8 +1,25 @@
 import Container from "../Container";
 import { FaFacebookF, FaGlobeAmericas, FaInstagram, FaPinterestP, FaTwitter } from "react-icons/fa";
 import { TbTruckDelivery } from "react-icons/tb";
+import useAuth from "../../Hook/useAuth";
+import { Link, useNavigate } from "react-router-dom";
 
 const Topbar = () => {
+
+    const navigate = useNavigate()
+
+    const {logOut} = useAuth()
+    
+    const handleLogoutBtn = () => {
+        logOut()
+        navigate('/')
+            .then(() => {
+                console.log("Sing Out Successfully");
+            })
+            .catch((error) => {
+                console.log(error);
+            });
+    }
     return (
         <div className="bg-[#51AA1B] text-white py-2 md:block hidden">
             <Container>
@@ -27,7 +44,7 @@ const Topbar = () => {
                         </div>
                     </div>
                     <div>
-                        <a href="#" className="text-white text-sm">Logout</a>
+                        <Link to={`/`} onClick={handleLogoutBtn} href="#" className="text-white text-sm">Logout</Link>
                     </div>
                 </div>
             </Container>

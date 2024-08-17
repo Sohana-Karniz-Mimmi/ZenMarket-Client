@@ -4,18 +4,17 @@ import './index.css'
 // react Dom setup
 import { RouterProvider } from "react-router-dom";
 import router from './Routes/Route.jsx';
-
-// import AuthProvider from './AuthProvider/AuthProvider.jsx';
+import AuthProvider from './AuthProvider/AuthProvider.jsx';
 import { HelmetProvider } from 'react-helmet-async';
 import { Toaster } from 'react-hot-toast';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/* <AuthProvider> */}
+    <AuthProvider>
       <HelmetProvider>
         <RouterProvider router={router} />
         <Toaster />
       </HelmetProvider>
-    {/* </AuthProvider> */}
+    </AuthProvider>
   </React.StrictMode>,
 )

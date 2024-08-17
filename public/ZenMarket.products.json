@@ -1,0 +1,90 @@
+[{
+  "name": "Wireless Bluetooth Headphones",
+  "image": "https://assets2.razerzone.com/images/pnx.assets/7fb8deac5d3c73e360bc687ed62be6cf/gaming-laptops-og-image.webp",
+  "description": "High-quality wireless Bluetooth headphones with noise-cancellation and 30 hours of battery life.",
+  "price": 120.99,
+  "category": "Electronics",
+  "ratings": 4.5,
+  "createdAt": "2024-08-01T12:34:56Z"
+},
+{
+  "name": "Smart LED TV 55 inches",
+  "image": "https://m.media-amazon.com/images/I/71qq3b-qweL._AC_SL1500_.jpg",
+  "description": "55-inch smart LED TV with 4K resolution, HDR, and built-in streaming apps.",
+  "price": 499.99,
+  "category": "Electronics",
+  "ratings": 4.7,
+  "createdAt": "2024-08-02T10:20:30Z"
+},
+{
+  "name": "Men's Running Shoes",
+  "image": "https://assets2.razerzone.com/images/pnx.assets/7fb8deac5d3c73e360bc687ed62be6cf/gaming-laptops-og-image.webp",
+  "description": "Comfortable and durable running shoes designed for long-distance running.",
+  "price": 69.99,
+  "category": "Footwear",
+  "ratings": 4.2,
+  "createdAt": "2024-08-03T14:15:45Z"
+},
+{
+  "name": "Women's Leather Handbag",
+  "image": "https://assets2.razerzone.com/images/pnx.assets/7fb8deac5d3c73e360bc687ed62be6cf/gaming-laptops-og-image.webp",
+  "description": "Elegant women's leather handbag with multiple compartments and a stylish design.",
+  "price": 150,
+  "category": "Accessories",
+  "ratings": 4.8,
+  "createdAt": "2024-08-04T09:00:00Z"
+},
+{
+  "name": "Gaming Laptop",
+  "image": "https://m.media-amazon.com/images/I/71qq3b-qweL._AC_SL1500_.jpg",
+  "description": "High-performance gaming laptop with an Intel i7 processor, 16GB RAM, and NVIDIA GTX 1660 Ti.",
+  "price": 1299.99,
+  "category": "Electronics",
+  "ratings": 4.9,
+  "createdAt": "2024-08-05T16:25:10Z"
+},
+{
+  "name": "Office Desk Chair",
+  "image": "https://assets2.razerzone.com/images/pnx.assets/7fb8deac5d3c73e360bc687ed62be6cf/gaming-laptops-og-image.webp",
+  "description": "Ergonomic office desk chair with lumbar support and adjustable height.",
+  "price": 89.99,
+  "category": "Furniture",
+  "ratings": 4.3,
+  "createdAt": "2024-08-06T11:45:20Z"
+},
+{
+  "name": "Kitchen Blender",
+  "image": "https://m.media-amazon.com/images/I/71qq3b-qweL._AC_SL1500_.jpg",
+  "description": "High-speed kitchen blender with multiple speed settings and a durable glass jar.",
+  "price": 49.99,
+  "category": "Appliances",
+  "ratings": 4.6,
+  "createdAt": "2024-08-07T08:30:00Z"
+},
+{
+  "name": "Yoga Mat",
+  "image": "https://assets2.razerzone.com/images/pnx.assets/7fb8deac5d3c73e360bc687ed62be6cf/gaming-laptops-og-image.webp",
+  "description": "Non-slip yoga mat with extra cushioning for added comfort during yoga sessions.",
+  "price": 29.99,
+  "category": "Fitness",
+  "ratings": 4.4,
+  "createdAt": "2024-08-08T15:10:40Z"
+},
+{
+  "name": "Digital SLR Camera",
+  "image": "https://assets2.razerzone.com/images/pnx.assets/7fb8deac5d3c73e360bc687ed62be6cf/gaming-laptops-og-image.webp",
+  "description": "Professional digital SLR camera with a 24.1 MP sensor and 4K video recording.",
+  "price": 799.99,
+  "category": "Photography",
+  "ratings": 4.7,
+  "createdAt": "2024-08-09T13:55:00Z"
+},
+{
+  "name": "Wireless Charger",
+  "image": "https://assets2.razerzone.com/images/pnx.assets/7fb8deac5d3c73e360bc687ed62be6cf/gaming-laptops-og-image.webp",
+  "description": "Fast wireless charger compatible with all Qi-enabled devices.",
+  "price": 25.99,
+  "category": "Electronics",
+  "ratings": 4.1,
+  "createdAt": "2024-08-10T07:20:00Z"
+}]
