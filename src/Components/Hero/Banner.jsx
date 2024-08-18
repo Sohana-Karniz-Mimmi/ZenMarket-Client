@@ -17,9 +17,9 @@ const Banner = () => {
             navigation={true}
             pagination={true}
             modules={[Navigation, Autoplay, EffectFade, Pagination]}
-            autoplay={{
-                delay: 9000,
-              }}
+            // autoplay={{
+            //     delay: 9000,
+            //   }}
             loop={true}
         >
 
@@ -36,7 +36,7 @@ const Banner = () => {
                         className="relative lg:h-screen lg:items-center"
                     >
                         <div className='flex items-center justify-center md:h-[540px] h-[250px]'>
-                            <div className="mt-14 text-white mx-auto md:max-w-[820px] text-center ltr:sm:text-left rtl:sm:text-right p-10 rounded-lg">
+                            <div className=" md:mt-14 mt-64 text-white mx-auto md:max-w-[820px] text-center ltr:sm:text-left rtl:sm:text-right p-10 rounded-lg">
                                 <i className="md:text-3xl text-sm mt-4max-w-2xl">
                                     It has finally started
                                 </i>
@@ -46,7 +46,7 @@ const Banner = () => {
                                 <p className="md:text-5xl text-sm mt-4 mb-10 max-w-2xl uppercase">
                                     Up to 70% off
                                 </p>
-                                <div className='space-x-5'>
+                                <div className='md:gap-5 gap-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
                                     <button className='border border-white py-[9px] bg-transparent hover:bg-white hover:text-black px-6 font-semibold uppercase'> shop men </button>
                                     <button className='border border-white py-[9px] bg-transparent hover:bg-white hover:text-black px-6 font-semibold uppercase'> shop women </button>
                                     <button className='border border-white py-[9px] bg-transparent hover:bg-white hover:text-black px-6 font-semibold uppercase'> shop all </button>
@@ -68,7 +68,7 @@ const Banner = () => {
 
                     <div className="relative md:mr-[300px] lg:h-screen lg:items-center">
                         <div className='flex justify-center items-center md:h-[540px] h-[250px]'>
-                            <div className="mt-14 text-black md:max-w-[820px] text-center ltr:sm:text-left rtl:sm:text-right p-10 rounded-lg">
+                            <div className="md:mt-14 mt-64 text-black md:max-w-[820px] text-center ltr:sm:text-left rtl:sm:text-right p-10 rounded-lg">
                                 <i className="md:text-2xl text-sm mt-4max-w-2xl">
                                     Women Clothing
                                 </i>
@@ -96,10 +96,10 @@ const Banner = () => {
                     >
                     </div>
 
-                    <div className="relative md:ml-[500px] lg:h-screen lg:items-center">
+                    <div className="relative md:ml-[300px] lg:ml-[500px] lg:h-screen lg:items-center">
                         <div className='flex justify-center items-center md:h-[540px] h-[250px]'>
-                            <div className="mt-14 text-white md:max-w-[820px] text-center ltr:sm:text-left rtl:sm:text-right p-10 rounded-lg">
-                                <i className="md:text-2xl text-sm mt-4max-w-2xl">
+                            <div className="md:mt-14 mt-64 text-white md:max-w-[820px] text-center ltr:sm:text-left rtl:sm:text-right p-10 rounded-lg">
+                                <i className="md:text-2xl text-sm mt-4 max-w-2xl">
                                     Women Clothing
                                 </i>
                                 <h1 className="text-xl mt-5 mb-3 font-bold md:text-5xl uppercase w-[500px]">

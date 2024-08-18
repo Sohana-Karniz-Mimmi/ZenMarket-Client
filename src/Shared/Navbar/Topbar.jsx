@@ -44,7 +44,7 @@ const Topbar = () => {
                         </div>
                     </div>
                     <div>
-                        <Link to={`/`} onClick={handleLogoutBtn} href="#" className="text-white text-sm">Logout</Link>
+                        <Link to={`/`} onClick={handleLogoutBtn} href="#" className="text-white text-sm font-semibold">Logout</Link>
                     </div>
                 </div>
             </Container>

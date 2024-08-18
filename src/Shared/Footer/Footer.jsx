@@ -16,7 +16,9 @@ const Footer = () => {
                         <Link to={'/'} className="font-bold text-lg md:text-3xl gap-3 flex items-center">
                         <span className="text-[#51AA1B]">Z<span className="text-[#51AA1B]">e</span>n<span className="text-white">Market<span className="text-[#51AA1B]">.</span> </span></span></Link>
                     </h3>
-                    <p className="text-[#FFFFFF99] mt-4 pb-6">Discover your next adventure with Turio. Explore breathtaking destinations, find hidden gems, and create unforgettable memories. Your journey starts here. </p>
+                    <p className="text-[#FFFFFF99] mt-4 pb-6">Discover trendy fashion and stylish accessories. Stay updated on collections and offers. Follow us on social media for the latest news and deals!
+
+</p>
 
                 </div>
 
@@ -52,7 +54,7 @@ const Footer = () => {
                 <div className="">
                     <h2 className="text-white font-bold text-lg mb-2">QUICK LINKS</h2>
                     <div className="flex flex-col lg:text-start text-center space-y-4 text-[#FFFFFF99] text-sm">
-                        <Link className="no-underline hover:underline cursor-pointer">Tour Guide</Link>
+                        <Link className="no-underline hover:underline cursor-pointer">About Us</Link>
 
                         <Link className="no-underline cursor-pointer hover:underline">Contact Us</Link>
                         <Link to={`/`} className="no-underline cursor-pointer hover:underline">Support Center</Link>
@@ -70,15 +72,15 @@ const Footer = () => {
                     <div className="flex flex-col space-y-4 text-[#FFFFFF99] text-sm">
                         <div className="bg-[#1313180C] rounded-2xl flex justify-center items-center">
                             <div className="space-x-2 text-3xl flex">
-                                <Link><FaSquareTwitter className="transition-all duration-300 hover:text-green-600" /></Link>
+                                <Link><FaSquareTwitter className="transition-all duration-300 hover:text-[#51AA1B]" /></Link>
                                 <Link>
-                                    <FaSquareFacebook className="transition-all duration-300 hover:text-green-600" />
+                                    <FaSquareFacebook className="transition-all duration-300 hover:text-[#51AA1B]" />
                                 </Link>
                                 <Link>
-                                    <FaLinkedin className="transition-all duration-300 hover:text-green-600" />
+                                    <FaLinkedin className="transition-all duration-300 hover:text-[#51AA1B]" />
                                 </Link>
                                 <Link>
-                                    <FaGithub className="transition-all duration-300 hover:text-green-600 " />
+                                    <FaGithub className="transition-all duration-300 hover:text-[#51AA1B] " />
                                 </Link>
                             </div>
                         </div>

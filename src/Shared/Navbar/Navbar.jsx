@@ -18,14 +18,9 @@ const Navbar = () => {
             isActive ? 'p-0 text-[#51AA1B] pb-1 rounded-none text-[16px] border-b-2 font-medium mt-2 border-[#51AA1B]'
                 :
                 'font-medium p-0 transition-all duration-200 ease-in-out hover:pb-1 hover:text-[#51AA1B] hover:rounded-none text-[16px] hover:border-b-2 border-[#51AA1B] mt-2'
-        } to={'/'}> Home </NavLink> </li>
+        } to={'/home'}> Home </NavLink> </li>
 
-        <li> <NavLink className={({ isActive }) =>
-            isActive ? 'p-0 text-[#51AA1B] pb-1 rounded-none text-[16px] border-b-2 font-medium mt-2 border-[#51AA1B]'
-                :
-                'font-medium p-0 transition-all duration-200 ease-in-out hover:text-[#51AA1B] hover:pb-1 hover:rounded-none text-[16px] hover:border-b-2 mt-2 border-[#51AA1B]'
-        } to={'/features'}>Features </NavLink> </li>
-
+        
         <li> <NavLink className={({ isActive }) =>
             isActive ? 'p-0 text-[#51AA1B] pb-1 rounded-none text-[16px] border-b-2 font-medium mt-2 border-[#51AA1B]'
                 :
@@ -76,7 +71,7 @@ const Navbar = () => {
 
 
 
-                        <Link to={'/'} className="font-bold text-lg md:text-3xl gap-3 flex items-center">
+                        <Link to={'/home'} className="font-bold text-lg md:text-3xl gap-3 flex items-center">
                             <span className="text-[#51AA1B]">Z<span className="text-[#51AA1B]">e</span>n<span className="text-black">Market<span className="text-[#51AA1B]">.</span> </span></span></Link>
 
 

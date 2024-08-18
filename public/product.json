@@ -1,0 +1,402 @@
+[
+  {
+    "name": "Women's Striped T-Shirt",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4JtG_O68AXrJzk77QojIJh2s5FDcY7lWBac36zP7FyQYQWwsHQhq8emEIIRV5tyPCQDo&usqp=CAU",
+    "description": "Stylish striped tee with a relaxed fit, great for casual wear.",
+    "price": 28,
+    "category": "T-Shirts",
+    "brand_name": "Madewell",
+    "ratings": 4.7,
+    "createdAt": "2024-08-13T13:45:00Z"
+  },
+  {
+    "name": "Smartwatch Series 6",
+    "image": "https://brotherselectronicsbd.com/image/cache/catalog/demo/Accessories/Apple/Apple%20Watch%20Series%206/71HSSiGBLlL._AC_SL1500_-800x800.jpg",
+    "description": "Advanced smartwatch with health tracking and customizable watch faces.",
+    "price": 400,
+    "category": "Watch",
+    "brand_name": "Apple",
+    "ratings": 4.9,
+    "createdAt": "2024-08-16T14:00:00Z"
+  },
+  {
+    "name": "Classic Leather Watch",
+    "image": "https://watchcentre.pk/wp-content/uploads/2022/03/Casio-mtp-ltp-v006gl-7b-pai-510x510.jpg",
+    "description": "Timeless leather watch with a minimalist design, perfect for formal occasions.",
+    "price": 120,
+    "category": "Watch",
+    "brand_name": "Daniel Wellington",
+    "ratings": 4.8,
+    "createdAt": "2024-08-15T09:30:00Z"
+  },
+  {
+    "name": "Sport Digital Watch",
+    "image": "https://images-cdn.ubuy.co.in/65560730e8b1ff7d7c288cea-tsv-men-s-digital-sports-watch.jpg",
+    "description": "Sporty digital watch with a rugged design, perfect for outdoor activities.",
+    "price": 80,
+    "category": "Watch",
+    "brand_name": "Casio",
+    "ratings": 4.6,
+    "createdAt": "2024-08-12T10:10:00Z"
+  },
+  {
+    "name": "Osaka Entry Tee Superdry",
+    "image": "https://demos.flatsome.com/wp-content/uploads/2013/08/538228-0286_1-510x649.jpeg",
+    "description": "Classic leather belt with a sleek metal buckle, suitable for formal and casual wear.",
+    "price": 45,
+    "category": "Men",
+    "brand_name": "Tommy Hilfiger",
+    "ratings": 4.6,
+    "createdAt": "2024-08-10T10:00:00Z"
+  },
+  {
+    "name": "Leather Tote Bag",
+    "image": "https://demos.flatsome.com/wp-content/uploads/2013/08/216756-0014_1-510x649.jpeg",
+    "description": "Elegant leather tote bag with ample space, perfect for daily use.",
+    "price": 150,
+    "category": "Bags",
+    "brand_name": "Michael Kors",
+    "ratings": 4.8,
+    "createdAt": "2024-08-10T09:00:00Z"
+  },
+  {
+    "name": "Cashmere Sweater",
+    "image": "https://demos.flatsome.com/wp-content/uploads/2013/08/258836-0426_1-510x649.jpeg",
+    "description": "Luxurious cashmere sweater offering ultimate softness and warmth.",
+    "price": 180,
+    "category": "Sweaters",
+    "brand_name": "Everlane",
+    "ratings": 4.9,
+    "createdAt": "2024-08-11T10:15:00Z"
+  },
+  {
+    "name": "Men's Graphic T-Shirt",
+    "image": "https://demos.flatsome.com/wp-content/uploads/2013/06/T_7_front-510x510.jpg",
+    "description": "Casual graphic t-shirt with a modern design.",
+    "price": 20,
+    "category": "Clothing",
+    "brand_name": "Adidas",
+    "ratings": 4.6,
+    "createdAt": "2024-08-18T10:05:00Z"
+  },
+  {
+    "name": "Men's Graphic T-Shirt",
+    "image": "https://demos.flatsome.com/wp-content/uploads/2013/06/T_1_front-510x510.jpg",
+    "description": "Cool graphic tee with a modern design, perfect for casual outings.",
+    "price": 30,
+    "category": "T-Shirts",
+    "brand_name": "Supreme",
+    "ratings": 4.7,
+    "createdAt": "2024-08-10T09:00:00Z"
+  },
+  {
+    "name": "Women's Faux Fur Jacket",
+    "image": "https://demos.flatsome.com/wp-content/uploads/2013/08/252678-0029_1-510x649.jpeg",
+    "description": "Luxurious faux fur jacket, perfect for winter fashion.",
+    "price": 180,
+    "category": "Women",
+    "brand_name": "Forever 21",
+    "ratings": 4.5,
+    "createdAt": "2024-08-18T16:00:00Z"
+  },
+  {
+    "name": "Men's Slim Fit Jeans",
+    "image": "https://image1.superdry.com/static/images/optimised/zoom/upload9223368955666349133.jpg",
+    "description": "Comfortable and durable slim-fit jeans, perfect for everyday wear.",
+    "price": 60,
+    "category": "Men",
+    "brand_name": "Levi's",
+    "ratings": 4.8,
+    "createdAt": "2024-08-16T12:10:00Z"
+  },
+  {
+    "name": "Woven Short Tops",
+    "image": "https://static-01.daraz.com.bd/p/28eaef42e8910f5ae4d353acf17d3c1a.jpg",
+    "description": "Chic Woven Short Tops with a relaxed fit, perfect for summer outings.",
+    "price": 45,
+    "category": "Tops",
+    "brand_name": "Zara",
+    "ratings": 4.8,
+    "createdAt": "2024-08-10T09:00:00Z"
+  },
+  {
+    "name": "Beyond Top NLY Trend",
+    "image": "https://demos.flatsome.com/wp-content/uploads/2013/08/917542-0001_1-510x649.jpeg",
+    "description": "Beyond Top NLY Trend tops with a relaxed fit, ideal for layering over high-waisted jeans.",
+    "price": 55,
+    "category": "Tops",
+    "brand_name": "Forever 21",
+    "ratings": 4.7,
+    "createdAt": "2024-08-14T14:10:00Z"
+  },
+  {
+    "name": "V-Neck T-Shirt",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG4HTV68bE1vs2f8NCMD_8FDfGbXlIrErvtQ&s",
+    "description": "Comfortable v-neck tee, ideal for layering or wearing on its own.",
+    "price": 25,
+    "category": "T-Shirts",
+    "brand_name": "H&M",
+    "ratings": 4.6,
+    "createdAt": "2024-08-11T10:15:00Z"
+  },
+  {
+    "name": "All Star Canvas",
+    "image": "https://demos.flatsome.com/wp-content/uploads/2013/08/282004-0286_2-510x649.jpeg",
+    "description": "High-performance All Star Canvas shoes designed for agility and speed.",
+    "price": 130,
+    "category": "Shoes",
+    "brand_name": "Adidas",
+    "ratings": 4.9,
+    "createdAt": "2024-08-18T12:00:00Z"
+  },
+  {
+    "name": "Designer Clutch Purse",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqo8drxVbQIm6deg67YT-oeuwckQ9_oTf8AA&s",
+    "description": "Sophisticated designer clutch purse, ideal for evening events and special occasions.",
+    "price": 200,
+    "category": "Bags",
+    "brand_name": "Gucci",
+    "ratings": 4.9,
+    "createdAt": "2024-08-12T11:30:00Z"
+  },
+  {
+    "name": "Leather Oxford Shoes",
+    "image": "https://toffpark.com/wp-content/uploads/2023/01/Oxford-Style-Breathable-Leather-Formal-Shoe-Brown_3.jpg",
+    "description": "Elegant leather oxford shoes with a sleek design, suitable for formal occasions.",
+    "price": 180,
+    "category": "Shoes",
+    "brand_name": "Clarks",
+    "ratings": 4.8,
+    "createdAt": "2024-08-10T09:30:00Z"
+  },
+  {
+    "name": "Women's Denim Jacket",
+    "image": "https://m.media-amazon.com/images/I/912G-qIyJdL._AC_UY1000_.jpg",
+    "description": "Stylish denim jacket with a comfortable fit, perfect for casual wear.",
+    "price": 90,
+    "category": "Women",
+    "brand_name": "Levi's",
+    "ratings": 4.7,
+    "createdAt": "2024-08-18T10:20:00Z"
+  },
+  {
+    "name": "Men's Running Shoes",
+    "image": "https://static-01.daraz.com.bd/p/7b99fc8669e77a90bd8b2d0505886197.jpg",
+    "description": "High-performance running shoes with excellent grip and comfort.",
+    "price": 140,
+    "category": "Shoes",
+    "brand_name": "Nike",
+    "ratings": 4.9,
+    "createdAt": "2024-08-12T12:00:00Z"
+  },
+  {
+    "name": "Men's Wool Sweater",
+    "image": "https://m.media-amazon.com/images/I/610-G8JQkQL._AC_SY350_QL65_.jpg",
+    "description": "Warm and cozy wool sweater, ideal for layering during the colder months.",
+    "price": 100,
+    "category": "Sweaters",
+    "brand_name": "J.Crew",
+    "ratings": 4.8,
+    "createdAt": "2024-08-18T10:00:00Z"
+  },
+  {
+    "name": "Men's Polo Shirt",
+    "image": "https://zmac.com.bd/storage/product/mens-stylish-china-polo-shirt-sd1-64455425d8da4-2023-04-23-64455425d8e0c.jpg",
+    "description": "Classic men's polo shirt with a tailored fit, perfect for casual and semi-formal wear.",
+    "price": 50,
+    "category": "Men",
+    "brand_name": "Ralph Lauren",
+    "ratings": 4.7,
+    "createdAt": "2024-08-16T14:10:00Z"
+  },
+  {
+    "name": "Women's Casual Sneakers",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2023/5/308843477/SR/JR/XD/122953519/-mg-1589-500x500.JPG",
+    "description": "Trendy casual sneakers with a comfortable design, perfect for everyday wear.",
+    "price": 75,
+    "category": "Shoes",
+    "brand_name": "Vans",
+    "ratings": 4.8,
+    "createdAt": "2024-08-14T10:45:00Z"
+  },
+  {
+    "name": "Men's Leather Wallet",
+    "image": "https://i.ebayimg.com/images/g/NX4AAOSwQPlV8SLE/s-l400.jpg",
+    "description": "Sleek and durable leather wallet with multiple compartments.",
+    "price": 35,
+    "category": "Men",
+    "brand_name": "Coach",
+    "ratings": 4.6,
+    "createdAt": "2024-08-15T10:00:00Z"
+  },
+  {
+    "name": "High-Waisted Jeans",
+    "image": "https://cdn.kiabi.ae/img/KIABI/UAE/Catalogs/kiabitrans-master-catalog/en_AE/large/AC/ACF38/ACF38_4_ZC1.jpg",
+    "description": "Comfortable and stylish high-waisted jeans, perfect for casual wear.",
+    "price": 65,
+    "category": "Women",
+    "brand_name": "Zara",
+    "ratings": 4.7,
+    "createdAt": "2024-08-12T11:45:00Z"
+  },
+  {
+    "name": "Men's Puffer Jacket",
+    "image": "https://5.imimg.com/data5/HW/PB/UP/SELLER-75155666/mens-puffer-jacket-500x500.jpg",
+    "description": "Warm and lightweight puffer jacket, ideal for cold weather.",
+    "price": 120,
+    "category": "Men",
+    "brand_name": "North Face",
+    "ratings": 4.9,
+    "createdAt": "2024-08-18T09:00:00Z"
+  },
+  {
+    "name": "Women's Leather Boots",
+    "image": "https://thursdayboots.com/cdn/shop/products/1024x1024-Women-Dynasty-Black-021022-1.jpg?v=1644877666&width=1024",
+    "description": "Stylish leather boots with a comfortable fit, perfect for winter fashion.",
+    "price": 150,
+    "category": "Shoes",
+    "brand_name": "Timberland",
+    "ratings": 4.7,
+    "createdAt": "2024-08-13T12:00:00Z"
+  },
+  {
+    "name": "Men's Casual Chinos",
+    "image": "https://lanieri.com/blog/wp-content/uploads/2017/06/BlogImage_Copertina_Chino-2.png",
+    "description": "Comfortable and stylish chinos, perfect for casual and semi-formal wear.",
+    "price": 70,
+    "category": "Men",
+    "brand_name": "Gap",
+    "ratings": 4.8,
+    "createdAt": "2024-08-10T14:30:00Z"
+  },
+  {
+    "name": "Women's Knit Sweater",
+    "image": "https://i5.walmartimages.com/asr/d2df9bb4-738a-4e55-89c5-3961eb4e178f.d77cab7e1330e01c9a61ee4e393cad3b.jpeg",
+    "description": "Cozy knit sweater with a relaxed fit, perfect for cold weather.",
+    "price": 80,
+    "category": "Sweaters",
+    "brand_name": "J.Crew",
+    "ratings": 4.9,
+    "createdAt": "2024-08-15T11:00:00Z"
+  },
+  {
+    "name": "Men's Waterproof Boots",
+    "image": "https://i.ebayimg.com/images/g/dagAAOSwz4lhgGO1/s-l1200.jpg",
+    "description": "Durable and waterproof boots, ideal for outdoor adventures.",
+    "price": 160,
+    "category": "Shoes",
+    "brand_name": "Columbia",
+    "ratings": 4.7,
+    "createdAt": "2024-08-17T10:10:00Z"
+  },
+  {
+    "name": "Men's Henley Shirt",
+    "image": "https://m.media-amazon.com/images/I/614LlNqdYgL._AC_UY1000_.jpg",
+    "description": "Casual henley shirt with a three-button placket and soft fabric.",
+    "price": 40,
+    "category": "Tops",
+    "brand_name": "J.Crew",
+    "ratings": 4.7,
+    "createdAt": "2024-08-11T10:15:00Z"
+  },
+  {
+    "name": "Men's Trench Coat",
+    "image": "https://i5.walmartimages.com/asr/a23d1670-d807-4265-a4be-072bcdf3a715.b3474abba4ab0bcc5d6dd94f3db95bc9.jpeg",
+    "description": "Stylish trench coat with a classic design, perfect for formal occasions.",
+    "price": 200,
+    "category": "Men",
+    "brand_name": "Burberry",
+    "ratings": 4.8,
+    "createdAt": "2024-08-13T09:45:00Z"
+  },
+  {
+    "name": "Women's Crossbody Bag",
+    "image": "https://images.othoba.com/images/thumbs/0490397_italish-flowers-designer-pu-leather-crossbody-bags-for-women-blue.jpeg",
+    "description": "Trendy crossbody bag with multiple compartments, perfect for daily use.",
+    "price": 85,
+    "category": "Bags",
+    "brand_name": "Coach",
+    "ratings": 4.8,
+    "createdAt": "2024-08-14T14:45:00Z"
+  },
+  {
+    "name": "Woven Short Tops",
+    "image": "https://i.pinimg.com/originals/9f/98/fc/9f98fcefccf4562fb0867889f525bc52.jpg",
+    "description": "Chic Woven Short Tops with a relaxed fit, perfect for summer outings.",
+    "price": 45,
+    "category": "Tops",
+    "brand_name": "Zara",
+    "ratings": 4.8,
+    "createdAt": "2024-08-10T09:00:00Z"
+  },
+  {
+    "name": "Women's Leather Gloves",
+    "image": "https://www.dhresource.com/webp/m/0x0/f2/albu/g18/M01/C7/01/rBNaNmFywlOAGnGDAAFQKtFAZQ0546.jpg",
+    "description": "Elegant leather gloves with a soft lining, perfect for winter fashion.",
+    "price": 60,
+    "category": "Women",
+    "brand_name": "Ralph Lauren",
+    "ratings": 4.7,
+    "createdAt": "2024-08-16T15:00:00Z"
+  },
+  {
+    "name": "Men's Leather Belt",
+    "image": "https://cdn.shopify.com/s/files/1/0505/1698/4004/t/26/assets/leather-belts-1657905300359.jpg?v=1657905312",
+    "description": "Classic leather belt with a modern buckle, suitable for both casual and formal outfits.",
+    "price": 45,
+    "category": "Men",
+    "brand_name": "Hugo Boss",
+    "ratings": 4.6,
+    "createdAt": "2024-08-14T08:00:00Z"
+  },
+  {
+    "name": "Women's Silk Scarf",
+    "image": "https://s.alicdn.com/@sc04/kf/H529453e7e37046a3b994d26da74fbbcbJ.jpg_720x720q50.jpg",
+    "description": "Luxurious silk scarf with a vibrant floral pattern, perfect for adding elegance to any outfit.",
+    "price": 80,
+    "category": "Accessories",
+    "brand_name": "Hermès",
+    "ratings": 4.9,
+    "createdAt": "2024-08-15T12:00:00Z"
+  },
+  {
+    "name": "Stainless Steel Watch",
+    "image": "https://i.ebayimg.com/images/g/r18AAOSwa0diwrSf/s-l1200.jpg",
+    "description": "Sleek stainless steel watch with a chronograph and water-resistant design.",
+    "price": 350,
+    "category": "Watch",
+    "brand_name": "Tag Heuer",
+    "ratings": 4.8,
+    "createdAt": "2024-08-17T11:00:00Z"
+  },
+  {
+    "name": "Women's Wool Coat",
+    "image": "https://www.angeljackets.com/ca/product_images/a/491/maroon_long_wool_coat__72939_zoom.webp",
+    "description": "Stylish wool coat with a tailored fit, perfect for staying warm in the winter months.",
+    "price": 250,
+    "category": "Women",
+    "brand_name": "Max Mara",
+    "ratings": 4.9,
+    "createdAt": "2024-08-18T13:30:00Z"
+  },
+  {
+    "name": "Men's Casual Sneakers",
+    "image": "https://static-01.daraz.com.bd/p/92246850db4c5262c082f696ede3c343.jpg",
+    "description": "Comfortable casual sneakers with a breathable design, ideal for everyday wear.",
+    "price": 75,
+    "category": "Shoes",
+    "brand_name": "Nike",
+    "ratings": 4.7,
+    "createdAt": "2024-08-16T09:00:00Z"
+  },
+  {
+    "name": "Women's Designer Handbag",
+    "image": "https://static-01.daraz.com.bd/p/29e5405036e625cc6611c1bb802fe916.jpg",
+    "description": "Elegant designer handbag with a chic design, perfect for formal events and everyday use.",
+    "price": 320,
+    "category": "Bags",
+    "brand_name": "Chanel",
+    "ratings": 4.9,
+    "createdAt": "2024-08-17T14:30:00Z"
+  }
+]

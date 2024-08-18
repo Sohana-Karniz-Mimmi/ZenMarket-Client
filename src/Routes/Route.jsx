@@ -24,6 +24,22 @@ const router = createBrowserRouter([
         element: <PrivetRoute><Home></Home></PrivetRoute>,
     },
     {
+        path: "/shop",
+        element: <PrivetRoute><Home></Home></PrivetRoute>,
+    },
+    {
+        path: "/about",
+        element: <PrivetRoute><Home></Home></PrivetRoute>,
+    },
+    {
+        path: "/blogs",
+        element: <PrivetRoute><Home></Home></PrivetRoute>,
+    },
+    {
+        path: "/gallery",
+        element: <PrivetRoute><Home></Home></PrivetRoute>,
+    },
+    {
         path: "/register",
         element: <Register></Register>,
     }
